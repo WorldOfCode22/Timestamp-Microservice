@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Timestamp Microservice</title>
+    <link rel="stylesheet" type="text/css" src="app/public/style.css">
+  </head>
+  <body>
+    <div id="contain">
+    <h1 id="title">
+      Timestamp Microservice
+    </h1>
+    <p id = "text">
+      This is a service that lets you input a unix timestamp into the url bar and recive both the unix stamp and date in time that the stamp was made.
+      This service can also be used to convert any given date to a unix timestamp. <a href="https://en.wikipedia.org/wiki/Unix_time">Read More About Unix Timestamps Here</a>
+    </p>
+      <h3 >
+        Timestamp To Date
+      </h3>
+      <p class="instruct">
+        https://timestamptime.glitch.me/[Timestamp here]
+      </p>
+      <h3 >
+        Date To Timestamp
+      </h3>
+      <p class="instruct">
+        https://timestamptime.glitch.me/[Date here]
+      </p>
+    </div>
+  </body>
+</html>
+<style>
+  body{
+    background-color:black;
+  }
+#contain{
+ position:absolute;
+ width:50%;
+ left:25%;
+ background-color:grey;
+ text-align:center;
+ border-radius:15px;
+}
+  .instruct{
+    background-color:white;
+    border-radius:15px;
+  }
+</style>
